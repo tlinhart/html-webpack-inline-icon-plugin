@@ -1,5 +1,5 @@
 {
   "env": { "node": true },
-  "parserOptions": { "ecmaVersion": 6 },
+  "parserOptions": { "ecmaVersion": 2018 },
   "extends": ["eslint:recommended", "plugin:prettier/recommended"]
 }
