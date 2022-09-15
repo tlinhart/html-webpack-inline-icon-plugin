@@ -1,0 +1,39 @@
+{
+  "name": "html-webpack-inline-icon-plugin",
+  "version": "1.0.0",
+  "description": "Embed icons as data URLs in the output HTML file",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint ./ --ext .js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlinhart/html-webpack-inline-icon-plugin.git"
+  },
+  "homepage": "https://github.com/tlinhart/html-webpack-inline-icon-plugin",
+  "bugs": {
+    "url": "https://github.com/tlinhart/html-webpack-inline-icon-plugin/issues"
+  },
+  "license": "MIT",
+  "author": "Tomáš Linhart <pasmen@gmail.com>",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "image-type": "^4.1.0",
+    "is-svg": "^4.3.2"
+  }
+}
