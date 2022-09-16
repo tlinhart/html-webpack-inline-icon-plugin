@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:js-lib",
+    "schedule:daily",
+    ":enableVulnerabilityAlerts",
+    ":maintainLockFilesWeekly",
+    ":automergeMinor"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["image-type"],
+      "allowedVersions": "<5.0.0"
+    }
+  ]
+}
