@@ -20,9 +20,9 @@ npm install --save-dev html-webpack-inline-icon-plugin
 ## Usage
 
 ```js
-var path = require("path");
-var HtmlWebpackPlugin = require("html-webpack-plugin");
-var InlineIconHtmlPlugin = require("html-webpack-inline-icon-plugin");
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const InlineIconHtmlPlugin = require("html-webpack-inline-icon-plugin");
 
 module.exports = {
   // ...
