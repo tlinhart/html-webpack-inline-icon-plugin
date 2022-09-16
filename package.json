@@ -26,11 +26,11 @@
   "license": "MIT",
   "author": "Tomáš Linhart <pasmen@gmail.com>",
   "devDependencies": {
-    "@types/node": "^18.7.16",
-    "eslint": "^8.23.1",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
+    "@types/node": "18.7.18",
+    "eslint": "8.23.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.7.1"
   },
   "dependencies": {
     "image-type": "^4.1.0",
