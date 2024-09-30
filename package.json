@@ -29,7 +29,7 @@
     "email": "pasmen@gmail.com"
   },
   "devDependencies": {
-    "@types/node": "20.16.5",
+    "@types/node": "20.16.10",
     "eslint": "8.57.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
