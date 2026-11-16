@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "image-type": "^4.1.0",
-    "is-svg": "^4.3.2"
+    "is-svg": "^6.0.0"
   }
 }
